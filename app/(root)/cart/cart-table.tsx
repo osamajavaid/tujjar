@@ -24,7 +24,6 @@ const CartTable = ({ cart }: { cart?: Cart }) => {
   const router = useRouter();
   const { toast } = useToast();
   const [isPending, startTransition] = useTransition();
-  console.log("🚀 ~ CartTable ~ cart:", cart);
 
   return (
     <>
